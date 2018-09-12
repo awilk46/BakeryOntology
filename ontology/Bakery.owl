@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/adria/ontologies/2017/5/bakery"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/adria/ontologies/2017/5/bakery">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Baking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Client"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Client"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SoldBaking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BakingID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PersonID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ValidityDays"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnetaKowal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BułkiBiałe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BułkiPełnoziarniste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BułkiSłodkie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChlebBiały"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChlebGraham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChlebSłonecznikowy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MariaKotwica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MariuszWrona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction3"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bread"/>
+        <Class IRI="#Baking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Client"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roll"/>
+        <Class IRI="#Baking"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#AnetaKowal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roll"/>
+        <NamedIndividual IRI="#BułkiBiałe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roll"/>
+        <NamedIndividual IRI="#BułkiPełnoziarniste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roll"/>
+        <NamedIndividual IRI="#BułkiSłodkie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bread"/>
+        <NamedIndividual IRI="#ChlebBiały"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bread"/>
+        <NamedIndividual IRI="#ChlebGraham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bread"/>
+        <NamedIndividual IRI="#ChlebSłonecznikowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Client"/>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Client"/>
+        <NamedIndividual IRI="#MariaKotwica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Client"/>
+        <NamedIndividual IRI="#MariuszWrona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#Transaction1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#Transaction2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#Transaction3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#rw3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#sadsadkl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#sadsadkl4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#sdfdskl"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#Transaction1"/>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Employee"/>
+        <NamedIndividual IRI="#Transaction1"/>
+        <NamedIndividual IRI="#AnetaKowal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <NamedIndividual IRI="#Transaction1"/>
+        <NamedIndividual IRI="#BułkiBiałe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#Transaction2"/>
+        <NamedIndividual IRI="#MariaKotwica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <NamedIndividual IRI="#Transaction2"/>
+        <NamedIndividual IRI="#BułkiPełnoziarniste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#Transaction3"/>
+        <NamedIndividual IRI="#MariuszWrona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <NamedIndividual IRI="#Transaction3"/>
+        <NamedIndividual IRI="#BułkiSłodkie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#rw3"/>
+        <NamedIndividual IRI="#MariuszWrona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#rw3"/>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#rw3"/>
+        <NamedIndividual IRI="#MariaKotwica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <NamedIndividual IRI="#rw3"/>
+        <NamedIndividual IRI="#ChlebGraham"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#sadsadkl"/>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Employee"/>
+        <NamedIndividual IRI="#sadsadkl"/>
+        <NamedIndividual IRI="#AnetaKowal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <NamedIndividual IRI="#sadsadkl"/>
+        <NamedIndividual IRI="#ChlebGraham"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Client"/>
+        <NamedIndividual IRI="#sadsadkl4"/>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Employee"/>
+        <NamedIndividual IRI="#sadsadkl4"/>
+        <NamedIndividual IRI="#sdfdskl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <NamedIndividual IRI="#sadsadkl4"/>
+        <NamedIndividual IRI="#ChlebGraham"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FullName"/>
+        <NamedIndividual IRI="#AnetaKowal"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AnetaKowal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonID"/>
+        <NamedIndividual IRI="#AnetaKowal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BakingID"/>
+        <NamedIndividual IRI="#BułkiBiałe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ValidityDays"/>
+        <NamedIndividual IRI="#BułkiBiałe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BakingID"/>
+        <NamedIndividual IRI="#BułkiPełnoziarniste"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ValidityDays"/>
+        <NamedIndividual IRI="#BułkiPełnoziarniste"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BakingID"/>
+        <NamedIndividual IRI="#BułkiSłodkie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ValidityDays"/>
+        <NamedIndividual IRI="#BułkiSłodkie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BakingID"/>
+        <NamedIndividual IRI="#ChlebBiały"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ValidityDays"/>
+        <NamedIndividual IRI="#ChlebBiały"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BakingID"/>
+        <NamedIndividual IRI="#ChlebGraham"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ValidityDays"/>
+        <NamedIndividual IRI="#ChlebGraham"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BakingID"/>
+        <NamedIndividual IRI="#ChlebSłonecznikowy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ValidityDays"/>
+        <NamedIndividual IRI="#ChlebSłonecznikowy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FullName"/>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">KrystynaŁowicz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonID"/>
+        <NamedIndividual IRI="#KrystynaŁowicz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FullName"/>
+        <NamedIndividual IRI="#MariaKotwica"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MariaKotwica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonID"/>
+        <NamedIndividual IRI="#MariaKotwica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FullName"/>
+        <NamedIndividual IRI="#MariuszWrona"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MariuszWrona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonID"/>
+        <NamedIndividual IRI="#MariuszWrona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Transaction1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">50,28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Transaction2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">70,98</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Transaction3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">100,12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#rw3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1,0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#sadsadkl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8,0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#sadsadkl4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8,0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FullName"/>
+        <NamedIndividual IRI="#sdfdskl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sdfdskl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonID"/>
+        <NamedIndividual IRI="#sdfdskl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Client"/>
+        <Class IRI="#Transaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Employee"/>
+        <Class IRI="#Transaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <Class IRI="#Transaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Client"/>
+        <Class IRI="#Client"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Employee"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoldBaking"/>
+        <Class IRI="#Baking"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BakingID"/>
+        <Class IRI="#Baking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cost"/>
+        <Class IRI="#Transaction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FullName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PersonID"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ValidityDays"/>
+        <Class IRI="#Baking"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#BakingID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cost"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PersonID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ValidityDays"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

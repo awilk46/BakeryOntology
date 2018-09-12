@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BakeryOntology.jnlp">
+  <information>
+    <title>BakeryOntology</title>
+    <vendor>adria</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BakeryOntology.jar" size="23767" download="eager" />
+    <jar href="lib\owlapi-distribution-3.5.0.jar" size="2518150" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BakeryOntology" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bakeryontology.BakeryOntology"  name="BakeryOntology" />
+  <update check="always"/>
+</jnlp>
